@@ -13,6 +13,8 @@ def main():
     for dict in chars_dict_list:
         print(f"The '{dict["name"]}' character was found {dict["num"]} times") if dict["name"].isalpha() else next
 
+    print("--- End report ---")
+
 def get_num_words(text):
     words = text.split()
     return len(words)
